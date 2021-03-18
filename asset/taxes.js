@@ -11,15 +11,15 @@ $("#submit").on("click", function() {
     console.log(incomeA);
     if (incomeA <= 9875) {
         incomeASingleFiler = 0.1 * incomeA;
-    } else if (9875 < incomeA <= 40125) {
+    } else if (9875 < incomeA && incomeA <= 40125) {
         incomeASingleFiler = 987.5 + (0.12 * (incomeA-9875));
-    } else if (40125 < incomeA <= 85525) {
+    } else if (40125 < incomeA  && incomeA <= 85525) {
         incomeASingleFiler = 4617.5 + (0.22 * i(ncomeA-40125));
-    } else if (85525 < incomeA <= 163300) {
+    } else if (85525 < incomeA && incomeA <= 163300) {
         incomeASingleFiler = 14605.5 + (0.24 * (incomeA-85525));
-    } else if (163300 < incomeA <= 207350) {
+    } else if (163300 < incomeA && incomeA <= 207350) {
         incomeASingleFiler = 33271.5 + (0.32 * (incomeA-163300));
-    } else if (207350 < incomeA <= 518400) {
+    } else if (207350 < incomeA && incomeA <= 518400) {
         incomeASingleFiler = 47367.5 + (0.35 * (incomeA-207350));
     } else {
         incomeASingleFiler = 157235 + (0.37 * (incomeA-518400));
